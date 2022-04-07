@@ -11,6 +11,8 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
+
 }
 
 /* Header rules */
@@ -61,11 +63,61 @@ main {
 /* Main rules */
 main {
     height: calc(100vh - 150px);
-    
+    background-color: black;
 }
 
 /* Footer rules */
 footer {
     height: 80px;
     background-color: rgb(34, 34, 34);
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+#left-nav {
+    width: 20%;
+    display: flex;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer .fas{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+footer .fa-angle-up {
+    font-size: 10px;
+    color: white;
+    margin: 25px 10px;
+}
+
+#central-nav {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+#central-nav .fa-share-square{
+    color: green;
+}
+
+#right-nav {
+    width: 20%;
+    height: 100%;
+}
+
+#right-nav h2 {
+    background-color: rgb(74, 74, 74);
+    color: red;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
 }
