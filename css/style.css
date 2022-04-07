@@ -1,3 +1,4 @@
+/* General rules */
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +7,47 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header rules */
+header {
+    height: 70px;
+    background-color: black;
+}
+
+#right-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#right-icon a {
+    color: white;
+    background-color: rgb(74, 74, 74);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 2px;
+}
+
+.preview {
+    width: 300px;
+    height: 200px;
+}
+
+.preview img{
+    object-fit: contain;
+}
+
+/* Main rules */
+main {
+    height: calc(100vh - 150px);
+}
+
+/* Footer rules */
+footer {
+    height: 80px;
+    background-color: rgb(34, 34, 34);
 }
